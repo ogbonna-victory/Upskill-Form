@@ -1,15 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Roboto;
 }
-.style-h1{
+.style-h3{
     text-align: center;
     font-weight: bolder;
+    margin-top: 30px;
 }
 .style-form{
     background-color: white; 
-    width: 54%;
+    width: 42%;
     margin: auto;
     padding-top: 20px; 
     padding-left: 15px;
@@ -17,7 +23,7 @@ body{
 }
 #name{
     height: 25px;
-    width: 650px;
+    width: 500px;
     margin-top: 5px;
     margin-bottom: 20px;
 }
@@ -27,74 +33,83 @@ input::placeholder{
 }
 #email{
     height: 25px;
-    width: 650px;
+    width: 500px;
     margin-top: 5px;
     margin-bottom: 20px;
 }
 #age{
     height: 25px;
-    width: 650px;
+    width: 500px;
     margin-top: 5px;
     margin-bottom: 20px;
 }
 .style-select{
     height: 30px;
-    width: 640px;
+    width: 500px;
     margin-top: 5px;
     margin-bottom: 20px;
 }
-.style-qa{
+#yes, #no, #c, #c-add, #c-ash, #java, #python, #js, #react, #angular, #django, #style-qa{
     margin-bottom: 5px;
-}
-#yes{
-    margin-bottom: 5px;
-}
-#no{
-    margin-bottom: 5px;
-}
-#maybe{
-    margin-bottom: 20px;
-}
-#c{
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-#c-add{
-    margin-bottom: 5px;
-}
-#c-ash{
-    margin-bottom: 5px;
-}
-#java{
-    margin-bottom: 5px;
-}
-#python{
-    margin-bottom: 5px;
-}
-#js{
-    margin-bottom: 5px;
-}
-#react{
-    margin-bottom: 5px; 
-}
-#angular{
-    margin-bottom: 5px; 
-}
-#django{
-    margin-bottom: 5px; 
+    margin-right: 5px;
 }
 #spring{
     margin-bottom: 20px; 
+    margin-right: 5px;
 }
 #comments{
     margin-top: 5px;
 }
-#submit{
-    margin-top: 20px;
-    background-color: skyblue;
-    border-color: skyblue;
-    width: 650px;
-    height: 25px;
-    font-weight: bold;
-    font-size: large;
+#maybe{
+    margin-right: 5px;
+}
+.btn{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 475px) {
+    .style-form{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    #name, #age, #email, #comments{
+        width: 90%;
+    }
+    .style-select{
+        width: 90%;
+    }
+    footer{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .style-form{
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    #name, #age, #email, #comments{
+        width: 90%;
+    }
+    .style-select{
+        width: 90%;
+    }
+    footer{
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 769px) {
+    .style-form{
+        width: 60%;
+        margin-bottom: 30px;
+    }
+    #name, #age, #email, #comments{
+        width: 90%;
+    }
+    .style-select{
+        width: 90%;
+    }
+    footer{
+        margin-bottom: 20px;
+    }
 }
