@@ -81,6 +81,7 @@ input::placeholder{
     }
     footer{
         margin-bottom: 20px;
+        margin-left: 20px;
     }
 }
 @media (max-width: 768px) {
@@ -96,11 +97,12 @@ input::placeholder{
     }
     footer{
         margin-bottom: 20px;
+        margin-left: 20px;
     }
 }
 @media (min-width: 769px) {
     .style-form{
-        width: 60%;
+        width: 50%;
         margin-bottom: 30px;
     }
     #name, #age, #email, #comments{
@@ -111,5 +113,6 @@ input::placeholder{
     }
     footer{
         margin-bottom: 20px;
+        margin-left: 20px;
     }
 }
