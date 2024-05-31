@@ -70,7 +70,7 @@ input::placeholder{
 
 @media (max-width: 475px) {
     .style-form{
-        width: 80%;
+        width: 90%;
         margin-bottom: 30px;
     }
     #name, #age, #email, #comments{
@@ -85,7 +85,7 @@ input::placeholder{
 }
 @media (max-width: 768px) {
     .style-form{
-        width: 80%;
+        width: 90%;
         margin-bottom: 30px;
     }
     #name, #age, #email, #comments{
